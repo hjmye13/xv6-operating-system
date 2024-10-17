@@ -47,6 +47,7 @@ main(int argc, char *argv[])
       printf("wc: cannot open %s\n", argv[i]);
       exit(1);
     }
+
     wc(fd, argv[i]);
     close(fd);
   }
