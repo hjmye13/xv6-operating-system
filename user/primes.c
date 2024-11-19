@@ -1,6 +1,6 @@
 #include "kernel/types.h"
 #include "user/user.h"
-
+void runprocess(int listenfd) __attribute__((noreturn));
 /*
  * Run as a prime-number processor
  * the listenfd is from your left neighbor
